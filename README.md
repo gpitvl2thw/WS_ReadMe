@@ -1,11 +1,19 @@
-# Williams-Sonoma Inc. [Selenium Tests]
-This repository contains [Selenium](http://seleniumhq.org/) tests for the [Williams-Sonoma Inc.](http://www.williams-sonoma.com/), [GitHub](https://github.com/YuriiChukhrai/WS_Base).
+########################################
+KnowledgeBaseTeamA
+########################################
 
-    .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
+.. class:: no-web
+
+The knowledge base is basement to provide different useful information about JAVA, GIT, Selenium and examples on test automation topics for different tools.
+
+Feel free to add and share with test automation communite any examples you wanted. Create pull request and share it.
+Keep it automated! :)
+
+
+    .. image:: https://developer.github.com/assets/images/hero-circuit-bg.svg
         :alt: github circuit board illustration
         :width: 100%
         :align: center
-
 
 .. contents::
 
@@ -14,6 +22,7 @@ This repository contains [Selenium](http://seleniumhq.org/) tests for the [Willi
 .. raw:: pdf
 
    PageBreak oneColumn
+
 
 
 =============
