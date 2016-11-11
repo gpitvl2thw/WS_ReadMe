@@ -24,29 +24,37 @@ This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Wil
 =============
 Dependencies
 =============
+
 ----------------
 Git
 ----------------
+
 Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
+
 * example: git -v
 
 ----------------
 GitHub
 ----------------
+
 Make sure you have access `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_:
+
 * example: git clone https://github.com/YuriiChukhrai/WS_Base
 
 ----------------
 Maven
 ----------------
+
 Make sure you have `Maven <https://maven.apache.org/download.cgi>`_ installed on your system. For check use the commands below:
 
 * example 1: mvn -v
+
 * example 2: mvn -version
 
 ----------------
 Java
 ----------------
+
 Make sure you have `Java <http://www.java.com/>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
 
