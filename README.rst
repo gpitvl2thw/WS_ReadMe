@@ -1,7 +1,7 @@
 ########################################
 Williams-Sonoma Inc. [Selenium Tests]
 ########################################
-This repository contains [Selenium](http://seleniumhq.org/) tests for the [Williams-Sonoma Inc.](http://www.williams-sonoma.com/), [GitHub](https://github.com/YuriiChukhrai/WS_Base).
+This repository contains Selenium <http://seleniumhq.org/) tests for the Williams-Sonoma Inc. <http://www.williams-sonoma.com/>, GitHub <https://github.com/YuriiChukhrai/WS_Base>.
 
     .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
         :alt: github circuit board illustration
@@ -25,12 +25,12 @@ Dependencies
 ----------------
 Git & GitHub
 ----------------
-Make sure you have [Git](https://git-scm.com/) installed on your system, if not follow the vendor instructions for installing them on your operating system.
+Make sure you have Git <https://git-scm.com/> installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
 ----------------
 Maven
 ----------------
-Make sure you have [Maven](https://maven.apache.org/download.cgi) installed on your system. For check use the commands below:
+Make sure you have Maven <https://maven.apache.org/download.cgi> installed on your system. For check use the commands below:
 
 * `example _01 mvn -v`_ 
 * `example _02 mvn -version`_ 
@@ -39,7 +39,7 @@ Make sure you have [Maven](https://maven.apache.org/download.cgi) installed on y
 ----------------
 Java
 ----------------
-Make sure you have [Java](http://www.java.com/) installed on your system, if not follow the vendor instructions for installing them on your operating system.
+Make sure you have Java <http://www.java.com/ installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
 
 
