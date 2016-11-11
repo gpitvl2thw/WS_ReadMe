@@ -62,20 +62,26 @@ To run the framework using basic options and their syntax:
 ----------------
 Clean repository
 ----------------
-clean - to clean the folders from test data from the previous run use the commands below:
+clean - to clean the folders from test data from the previous run use the command [clean]
 
 ``mvn clean``
 
 ----------------
 Run all test without/with of reports
 ----------------
-To run the framework for execution you need to choose the desired option
+To run the framework for execution you need to choose the desired option "test/site":
 
-* test - to run tests without getting a report use the commands below:
+~~~~~~~~~~~~
+Without of reports
+~~~~~~~~~~~~
+test - to run tests without getting a report use the commands below:
 
 ``mvn clean test``
 
-* site - to run tests with getting a report use the commands below:
+~~~~~~~~~~~~
+With of reports
+~~~~~~~~~~~~
+site - to run tests with getting a report use the commands below:
 
 ``mvn clean site``
 
@@ -84,14 +90,23 @@ Select a browser
 ----------------
 To run the framework in a particular browser, to need to specify the name of the browser as a parameter of the option of -DdriverType:
 
-* To run in Firefox use -DdriverType=FF, below:
+~~~~~~~~~~~~
+Firefox
+~~~~~~~~~~~~
+To run in Firefox use -DdriverType=FF, below:
 
 ``mvn clean site -DdriverType=FF/ff/FIREFOX/FireFox/firefox/FOX/Fox/fox``
-	
-* To run in Chrome use -DdriverType=CHROME, below: - [Not Implement yet]
+
+~~~~~~~~~~~~
+Chrome
+~~~~~~~~~~~~
+To run in Chrome use -DdriverType=CHROME, below: - [Not Implement yet]
 
 ``mvn clean site -DdriverType=CHROME``
-	
+
+~~~~~~~~~~~~
+Internet Explorer
+~~~~~~~~~~~~
 To run in Internet Explorer use -DdriverType=IE, below: - [Not Implement yet]
 
 ``mvn clean site -DdriverType=IE``
