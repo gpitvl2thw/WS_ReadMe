@@ -35,7 +35,7 @@ Maven
 ----------------
 Make sure you have `Maven <https://maven.apache.org/download.cgi>`_ installed on your system. For check use the commands below:
 
-* example 1 mvn -v
+* example _1 mvn -v
 * example 2 mvn -version
 
 ----------------
