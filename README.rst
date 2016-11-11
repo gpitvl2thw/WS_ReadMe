@@ -29,7 +29,7 @@ Git
 ----------------
 Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
 
-::``git -v``
+``::````git -v``
 
 ----------------
 GitHub
@@ -43,8 +43,7 @@ Maven
 ----------------
 Make sure you have `Maven <https://maven.apache.org/download.cgi>`_ installed on your system. For check use the commands below:
 
-``mvn -v``
-``mvn -version``
+``mvn -v/-version``
 
 ----------------
 Java
