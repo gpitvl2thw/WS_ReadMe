@@ -29,14 +29,14 @@ Git
 ----------------
 Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
 
-``::````git -v``
+``::``    ``git -v``
 
 ----------------
 GitHub
 ----------------
 Make sure you have access `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_:
 
-::``git clone https://github.com/YuriiChukhrai/WS_Base``
+``git clone https://github.com/YuriiChukhrai/WS_Base``
 
 ----------------
 Maven
@@ -71,38 +71,30 @@ Run all test without/with of reports
 ----------------
 To run the framework for execution you need to choose the desired option
 
-*test - to run tests without getting a report use the commands below:
+* test - to run tests without getting a report use the commands below:
 
-::``mvn clean test``
+``mvn clean test``
 
-*site - to run tests with getting a report use the commands below:
+* site - to run tests with getting a report use the commands below:
 
-::``mvn clean site``
+``mvn clean site``
 
 ----------------
 Select a browser
 ----------------
 To run the framework in a particular browser, to need to specify the name of the browser as a parameter of the option of -DdriverType:
 
-*To run in Firefox use -DdriverType=FF, below:
+* To run in Firefox use -DdriverType=FF, below:
 
-mvn clean site -DdriverType=FF
-
-* example: FF/ff/FIREFOX/FireFox/firefox/FOX/Fox/fox
-
+``mvn clean site -DdriverType=FF/ff/FIREFOX/FireFox/firefox/FOX/Fox/fox``
 	
-To run in Chrome use -DdriverType=CHROME, below:
+* To run in Chrome use -DdriverType=CHROME, below: - [Not Implement yet]
 
-mvn clean site -DdriverType=CHROME
-
-CHROME - [Not Implement yet]
-
+``mvn clean site -DdriverType=CHROME``
 	
-To run in Internet Explorer use -DdriverType=IE, below:
+To run in Internet Explorer use -DdriverType=IE, below: - [Not Implement yet]
 
-mvn clean site -DdriverType=IE
-
-IE - [Not Implement yet]
+``mvn clean site -DdriverType=IE``
 
 ----------------
 -Denv
