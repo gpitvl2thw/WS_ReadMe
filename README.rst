@@ -11,7 +11,7 @@ This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Wil
         :align: center
 
 
-.. ########################################contents########################################::
+.. contents::
 
 .. section-numbering::
 
@@ -44,31 +44,43 @@ Java
 Make sure you have `Java <http://www.java.com/>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
 
+=============
+Run the framework
+=============
+To run the framework using the basic command syntax and options:
+* example mvn clean test/site -DdriverType=FF -Denv=prod/qa -Ptest1/-Ptest2/-Ptest3 -Dtestngfile=testng_TestsTemp0_Title.xml 
 
-To run the framework use the following command syntax
-mvn clean test/site -DdriverType=FF -Denv=prod/qa -Ptest1/-Ptest2/-Ptest3 -Dtestngfile=testng_TestsTemp0_Title.xml 
-
-
+----------------
 Run maven
+----------------
 mvn
 
 Example
 C:\>mvn -v/-version
 
 
+----------------
 Clean repository
-To clean the folders from test data from the previous run.
+----------------
+To clean the folders from test data from the previous run use the commands below:
 
 Example
 mvn clean
 
 
+----------------
 Run all test without of reports
-To run tests without getting a report.
+----------------
+To run tests without getting a report use the commands below:
 
 Example
 mvn clean test
 
+
+----------------
+Run all test with of reports
+----------------
+To run tests with getting a report use the commands below:
 
 Use browsers
 -DdriverType
@@ -117,11 +129,13 @@ testng_All
 testng_TestsTemp0_Title
 testng_TestsTempI_Acc
 testng_TestsTempII	
+testng_TestsTempIII
+testng_TestsTempIV
 
 
-
-
-
+----------------
 OPEN REPORT
-.\target\site\surefire-report.html
+----------------
+Open the browser and in the address bar enter the path:
+* example 1 .\target\site\surefire-report.html
 
