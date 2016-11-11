@@ -29,7 +29,7 @@ Git
 ----------------
 Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
 
-::    ``git -v``
+``git -v``
 
 ----------------
 GitHub
@@ -99,54 +99,45 @@ To run in Internet Explorer use -DdriverType=IE, below: - [Not Implement yet]
 ----------------
 -Denv
 ----------------
+In order to specify the run mode, production or environment specify the desired option -Denv:
 
--Denv
-prod - 
-qa - [Not Implement yet]
+* To run in production mode, use -Denv=prod
 
+``mvn clean site -Denv=qa``
 
+* To run in production mode, use -Denv=qa - [Not Implement yet]
+
+``mvn clean site -Denv=qa``
+
+> if you don't specify this parameter, default = qa
+
+>>``mvn clean site -Denv=qa``
+
+----------------
+Run with profile
+----------------
 -Ptest1/-Ptest2/-Ptest3
 
 
-
-Run all test without of reports
-mvn clean test
-OR
-mvn clean test -Ptest1							=>	testng_TestsTemp0_Title.xml
-
-
-Run test without reports with testng-file
-mvn clean test -Ptest2 -Dtestngfile=testng_TestsTempI_Acc.xml
-mvn clean test -Ptest2 -Dtestngfile=!testngxml!/testng_TestsTempI_Acc.xml
-
-
-
-
-Run all test and get reports
-mvn clean site -DdriverType=FF -Denv=prod/qa
-OR
-mvn clean site -Ptest1 -DdriverType=FF -Denv=prod/qa			=>	testng_TestsTemp0_Title.xml
-
-
-
-
-Run test and get reports with testng-file
-mvn clean site -Ptest1 -DdriverType=FF -Denv=prod/qa
-mvn clean site -Ptest2 -DdriverType=FF -Denv=prod -Dtestngfile=testng_TestsTemp0_Title.xml
-mvn clean site -Ptest3 -DdriverType=FF -Denv=prod -Dtestngfile=!testngxml!/testng_TestsTemp0_Title.xml
-
-
-testng_All
-testng_TestsTemp0_Title
-testng_TestsTempI_Acc
-testng_TestsTempII	
-testng_TestsTempIII
-testng_TestsTempIV
-
+> if you specify a profile -Ptest1, then the following option should not be specified.
 
 ----------------
+[-Dtestngfile=testng_xml_file]
+----------------
+
+
+
+>>All testng files
+>>testng_All
+>>testng_TestsTemp0_Title
+>>testng_TestsTempI_Acc
+>>testng_TestsTempII	
+>>testng_TestsTempIII
+>>testng_TestsTempIV
+
+=============
 OPEN REPORT
-----------------
+=============
 Open the browser and in the address bar enter the path:
-* example 1 .\target\site\surefire-report.html
+``.\target\site\surefire-report.html``
 
