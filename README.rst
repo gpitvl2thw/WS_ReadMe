@@ -2,7 +2,7 @@
 Williams-Sonoma Inc. [Selenium Tests]
 ########################################
 
-This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`_, `GitHub <https://github.com/YuriiChukhrai/WS_Base>`_.
+This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`_, `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_.
 
 
     .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
@@ -24,19 +24,25 @@ This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Wil
 =============
 Dependencies
 =============
+----------------
+Git
+----------------
+Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
+* example: git -v
 
 ----------------
-Git & GitHub
+GitHub
 ----------------
-Make sure you have `Git <https://git-scm.com/>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
+Make sure you have access `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_:
+* example: git clone https://github.com/YuriiChukhrai/WS_Base
 
 ----------------
 Maven
 ----------------
 Make sure you have `Maven <https://maven.apache.org/download.cgi>`_ installed on your system. For check use the commands below:
 
-* example _1 mvn -v
-* example 2 mvn -version
+* example 1: mvn -v
+* example 2: mvn -version
 
 ----------------
 Java
@@ -47,35 +53,22 @@ Make sure you have `Java <http://www.java.com/>`_ installed on your system, if n
 =============
 Run the framework
 =============
-To run the framework using the basic command syntax and options:
-* example mvn clean test/site -DdriverType=FF -Denv=prod/qa -Ptest1/-Ptest2/-Ptest3 -Dtestngfile=testng_TestsTemp0_Title.xml 
-
-----------------
-Run maven
-----------------
-mvn
-
-Example
-C:\>mvn -v/-version
-
+To run the framework using basic options and their syntax:
+* example: mvn [clean] [test/site] [-DdriverType=FF] [-Denv=prod/qa] [-Ptest1/-Ptest2/-Ptest3] [-Dtestngfile=testng_xml_file]
 
 ----------------
 Clean repository
 ----------------
 To clean the folders from test data from the previous run use the commands below:
-
-Example
-mvn clean
-
+* example: mvn clean
 
 ----------------
-Run all test without of reports
+Run all test with/without of reports
 ----------------
 To run tests without getting a report use the commands below:
 
 Example
 mvn clean test
-
 
 ----------------
 Run all test with of reports
