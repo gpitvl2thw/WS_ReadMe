@@ -29,43 +29,44 @@ Git
 ----------------
 Make sure you have `Git <https://git-scm.com/>`_ installed on your system. For check use the commands below:
 
-* example: git -v
+``* example: git -v``
 
 ----------------
 GitHub
 ----------------
 Make sure you have access `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_:
 
-* example: git clone https://github.com/YuriiChukhrai/WS_Base
+``* example: git clone https://github.com/YuriiChukhrai/WS_Base``
 
 ----------------
 Maven
 ----------------
 Make sure you have `Maven <https://maven.apache.org/download.cgi>`_ installed on your system. For check use the commands below:
 
-* example 1: mvn -v
+``* example 1: mvn -v
 
-* example 2: mvn -version
+* example 2: mvn -version``
 
 ----------------
 Java
 ----------------
 Make sure you have `Java <http://www.java.com/>`_ installed on your system, if not follow the vendor instructions for installing them on your operating system.
 
+``* example 1: java -version``
 
 =============
 Run the framework
 =============
 To run the framework using basic options and their syntax:
 
-* example: mvn [clean] [test/site] [-DdriverType=FF] [-Denv=prod/qa] [-Ptest1/-Ptest2/-Ptest3] [-Dtestngfile=testng_xml_file]
+``* example: mvn [clean] [test/site] [-DdriverType=FF] [-Denv=prod/qa] [-Ptest1/-Ptest2/-Ptest3] [-Dtestngfile=testng_xml_file]``
 
 ----------------
 Clean repository
 ----------------
 clean - to clean the folders from test data from the previous run use the commands below:
 
-* example: mvn clean
+``* example: mvn clean``
 
 ----------------
 Run all test without/with of reports
@@ -74,11 +75,11 @@ To run the framework for execution you need to choose the desired option
 
 test - to run tests without getting a report use the commands below:
 
-* example: mvn clean test
+``* example: mvn clean test``
 
 site - to run tests with getting a report use the commands below:
 
-* example: mvn clean site
+``* example: mvn clean site``
 
 ----------------
 Select a browser
