@@ -1,7 +1,7 @@
 ########################################
 Williams-Sonoma Inc. [Selenium Tests]
 ########################################
-This repository contains `Selenium <http://seleniumhq.org/>` tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`, `GitHub <https://github.com/YuriiChukhrai/WS_Base>`.
+This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`_, `GitHub <https://github.com/YuriiChukhrai/WS_Base>`_.
 
     .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
         :alt: github circuit board illustration
