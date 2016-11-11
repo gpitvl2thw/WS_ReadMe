@@ -53,42 +53,42 @@ Make sure you have `Java <http://www.java.com/>`_ installed on your system, if n
 ``java -version``
 
 =============
-Run the framework
+Run
 =============
 To run the framework using basic options and their syntax:
 
 ``mvn [clean] [test/site] [-DdriverType=FF] [-Denv=prod/qa] [-Ptest1/-Ptest2/-Ptest3] [-Dtestngfile=testng_xml_file]``
 
 ----------------
-Clean repository
+Clean
 ----------------
-clean - to clean the folders from test data from the previous run use the command [clean]
+To clean the folders from test data from the previous run use the command [clean]
 
 ``mvn clean``
 
 ----------------
-Run all test without/with of reports
+Run test without/with of reports
 ----------------
-To run the framework for execution you need to choose the desired option "test/site":
+To run the framework for execution you need to choose the desired option [test/site]
 
 ~~~~~~~~~~~~
-Without of reports
+Run test without of reports
 ~~~~~~~~~~~~
-test - to run tests without getting a report use the commands below:
+To run tests without getting a report use option test
 
 ``mvn clean test``
 
 ~~~~~~~~~~~~
-With of reports
+Run test with of reports
 ~~~~~~~~~~~~
-site - to run tests with getting a report use the commands below:
+To run tests with getting a report use option site
 
 ``mvn clean site``
 
 ----------------
-Select a browser
+Browser
 ----------------
-To run the framework in a particular browser, to need to specify the name of the browser as a parameter of the option of -DdriverType:
+To run the framework in a particular browser, to need to specify the name of the browser as a parameter of the option of [-DdriverType]
 
 ~~~~~~~~~~~~
 Firefox
@@ -111,34 +111,57 @@ To run in Internet Explorer use -DdriverType=IE, below: - [Not Implement yet]
 
 ``mvn clean site -DdriverType=IE``
 
-----------------
--Denv
-----------------
-In order to specify the run mode, production or environment specify the desired option -Denv:
+~~~~~~~~~~~~
+Default
+~~~~~~~~~~~~
+If you don't specify this parameter, default = FF
 
-* To run in production mode, use -Denv=prod
+``mvn clean site -DdriverType=FF``
+
+----------------
+Environment or Production
+----------------
+In order to specify the run mode, production or environment specify the desired option [-Denv]
+
+~~~~~~~~~~~~
+Environment
+~~~~~~~~~~~~
+To run in production mode, use option qa - [Not Implement yet]
 
 ``mvn clean site -Denv=qa``
 
-* To run in production mode, use -Denv=qa - [Not Implement yet]
+~~~~~~~~~~~~
+Production
+~~~~~~~~~~~~
+To run in production mode, use option prod
+
+``mvn clean site -Denv=prod``
+
+~~~~~~~~~~~~
+Default
+~~~~~~~~~~~~
+If you don't specify this parameter, default = qa
 
 ``mvn clean site -Denv=qa``
 
-> if you don't specify this parameter, default = qa
-
->>``mvn clean site -Denv=qa``
-
 ----------------
-Run with profile
+Profile
 ----------------
 -Ptest1/-Ptest2/-Ptest3
 
+~~~~~~~~~~~~
+Default
+~~~~~~~~~~~~
+If you don't specify this parameter, default = -Ptest1
 
-> if you specify a profile -Ptest1, then the following option should not be specified.
+* if you specify a profile -Ptest1, then the following option [-Dtestngfile=testng_xml_file] should not be specified.
 
 ----------------
+TestNG xml
+----------------
+
+
 [-Dtestngfile=testng_xml_file]
-----------------
 
 
 
