@@ -11,6 +11,10 @@ This repository contains [Selenium](http://seleniumhq.org/) tests for the [Willi
 
 .. section-numbering::
 
+.. raw:: pdf
+
+   PageBreak oneColumn
+
 
 =============
 Dependencies
