@@ -7,7 +7,7 @@ This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Wil
 
     .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/ws.jpg
         :alt: github circuit board illustration
-        :width: 50%
+        :width: 30%
         :align: center
 
 
@@ -212,7 +212,7 @@ To open the browser and in the address bar enter the path:
 
     .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/testng_TestsTemp0_Title.jpg
         :alt: github circuit board illustration
-        :width: 50%
+        :width: 30%
         :align: center
 
 ----------------
