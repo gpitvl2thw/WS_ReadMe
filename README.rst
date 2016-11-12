@@ -5,7 +5,7 @@ Williams-Sonoma Inc. [Selenium Tests]
 This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`_, `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_.
 
 
-    .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
+    .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/ws.jpg
         :alt: github circuit board illustration
         :width: 100%
         :align: center
@@ -210,9 +210,9 @@ To open the browser and in the address bar enter the path:
 
 ``.\target\site\surefire-report.html``
 
-    .. image:: https://github.com/gpitvl2thw/WS_Photo/blob/master/ws.jpg
+    .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/testng_TestsTemp0_Title.jpg
         :alt: github circuit board illustration
-        :width: 100%
+        :width: 50%
         :align: center
 
 ----------------
