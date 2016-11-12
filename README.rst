@@ -67,19 +67,19 @@ To clean the folders from test data from the previous run use the command [clean
 ``mvn clean``
 
 ----------------
-Run test without/with of reports
+Run test without/with of report
 ----------------
 To run the framework for execution you need to choose the desired option [test/site]
 
 ~~~~~~~~~~~~
-Run test without of reports
+Run test without of report
 ~~~~~~~~~~~~
 To run tests without getting a report use option test
 
 ``mvn clean test``
 
 ~~~~~~~~~~~~
-Run test with of reports
+Run test with of report
 ~~~~~~~~~~~~
 To run tests with getting a report use option site
 
@@ -195,6 +195,24 @@ testng_TestsTempII_OneMethod.xml
 =============
 OPEN REPORT
 =============
-Open the browser and in the address bar enter the path:
+
+In project exist 3 kind of reports:
+
+----------------
+`SureFire <http://maven.apache.org/surefire/maven-surefire-plugin/>`_ report
+----------------
+The Surefire Plugin is used during the test phase of the build lifecycle to execute the unit tests of an application.
+
+To open the browser and in the address bar enter the path:
 ``.\target\site\surefire-report.html``
+
+----------------
+`Allure <http://allure.qatools.ru/>`_ report
+----------------
+An open-source framework designed to create test execution reports clear to everyone in the team. 
+
+----------------
+`Java Code Coverage <http://www.eclemma.org/jacoco/index.html>`_ report
+----------------
+JaCoCo is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years. 
 
