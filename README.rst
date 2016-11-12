@@ -199,19 +199,20 @@ OPEN REPORT
 In project exist 3 kind of reports:
 
 ----------------
-`SureFire <http://maven.apache.org/surefire/maven-surefire-plugin/>`_ report
+SureFire report
 ----------------
-The Surefire Plugin is used during the test phase of the build lifecycle to execute the unit tests of an application.
+The `Surefire <http://maven.apache.org/surefire/maven-surefire-plugin/>`_ Plugin is used during the test phase of the build lifecycle to execute the unit tests of an application.
+
 To open the browser and in the address bar enter the path:
 ``.\target\site\surefire-report.html``
 
 ----------------
-`Allure <http://allure.qatools.ru/>`_ report
+Allure report
 ----------------
-An open-source framework designed to create test execution reports clear to everyone in the team. 
+`Allure <http://allure.qatools.ru/>`_ an open-source framework designed to create test execution reports clear to everyone in the team. 
 
 ----------------
-`Java Code Coverage <http://www.eclemma.org/jacoco/index.html>`_ report
+Java Code Coverage report
 ----------------
-JaCoCo is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years. 
+`JaCoCo <http://www.eclemma.org/jacoco/index.html>`_ is a free code coverage library for Java, which has been created by the EclEmma team based on the lessons learned from using and integration existing libraries for many years. 
 
