@@ -203,6 +203,9 @@ SureFire report
 ----------------
 The `SureFire <http://maven.apache.org/surefire/maven-surefire-plugin/>`_ Plugin is used during the test phase of the build lifecycle to execute the unit tests of an application.
 
+~~~~~~~~~~~~
+Default
+~~~~~~~~~~~~
 To open the browser and in the address bar enter the path:
 ``.\target\site\surefire-report.html``
 
