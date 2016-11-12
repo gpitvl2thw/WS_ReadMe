@@ -218,6 +218,7 @@ Allure report - [Not Implement yet]
 Open report
 ~~~~~~~~~~~~
 [Not Implement yet]
+
 ----------------
 Java Code Coverage report - [Not Implement yet]
 ----------------
