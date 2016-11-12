@@ -147,31 +147,50 @@ If you don't specify this parameter, default = qa
 ----------------
 Profile
 ----------------
--Ptest1/-Ptest2/-Ptest3
+In order to use a profile to run tests specify the desired option [-Ptest1/-Ptest2/-Ptest3]
+
+~~~~~~~~~~~~
+Profile #1
+~~~~~~~~~~~~
+Use option -Ptest1 to run the default profile
+
+* if you specify a profile -Ptest1, then the following option [-Dtestngfile=testng_TestsTemp0_Title.xml] should not be specified.
+
+~~~~~~~~~~~~
+Profile #2
+~~~~~~~~~~~~
+Use option -Ptest2 to run the profile where to need specify just testng_xml_file use option [-Dtestngfile=testng_TestsTemp0_Title.xml]
+
+~~~~~~~~~~~~
+Profile #3
+~~~~~~~~~~~~
+Use option -Ptest3 to run the profile where to need specify full path and testng_xml_file use option [-Dtestngfile=!testngxml!/testng_TestsTemp0_Title.xml]
 
 ~~~~~~~~~~~~
 Default
 ~~~~~~~~~~~~
-If you don't specify this parameter, default = -Ptest1
+If you don't specify this parameter default profile = -Ptest1
 
-* if you specify a profile -Ptest1, then the following option [-Dtestngfile=testng_xml_file] should not be specified.
+* if you specify a profile -Ptest1, then the following option [-Dtestngfile=testng_TestsTemp0_Title.xml] should not be specified.
 
 ----------------
-TestNG xml
+TestNG file
 ----------------
+If specified the previous option, it is necessary to specify what of file need to run test, specify the option [-Dtestngfile=testng_xml_file]
 
+testng_All.xml
 
-[-Dtestngfile=testng_xml_file]
+testng_All_OneMethod.xml
 
+testng_TestsTemp0_Title.xml
 
+testng_TestsTempI_Account_All.xml
 
->>All testng files
->>testng_All
->>testng_TestsTemp0_Title
->>testng_TestsTempI_Acc
->>testng_TestsTempII	
->>testng_TestsTempIII
->>testng_TestsTempIV
+testng_TestsTempI_Account_OneMethod.xml
+
+testng_TestsTempII_All.xml
+
+testng_TestsTempII_OneMethod.xml
 
 =============
 OPEN REPORT
