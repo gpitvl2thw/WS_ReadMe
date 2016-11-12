@@ -7,7 +7,7 @@ This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Wil
 
     .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/ws.jpg
         :alt: github circuit board illustration
-        :width: 100%
+        :width: 50%
         :align: center
 
 
