@@ -1,18 +1,3 @@
-    .. image::  https://raw.github.com/p3/regal/master/doc/regal.jpg
-   	:height: 128 px
-   	:width:  128 px
-   	:align: right
-
-`SureFire Report <https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html>`_,
-
-
-.. raw:: html
-	:file: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
-
-
-https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
-
-
 ########################################
 Williams-Sonoma Inc. [Selenium Tests]
 ########################################
