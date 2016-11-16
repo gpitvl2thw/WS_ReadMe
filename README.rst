@@ -1,3 +1,11 @@
+
+.. raw:: html
+	:file: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
+
+
+https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
+
+
 ########################################
 Williams-Sonoma Inc. [Selenium Tests]
 ########################################
@@ -5,8 +13,8 @@ Williams-Sonoma Inc. [Selenium Tests]
 This repository contains `Selenium <http://seleniumhq.org/>`_ tests for the `Williams-Sonoma Inc. <http://www.williams-sonoma.com/>`_, `GitHub Account <https://github.com/YuriiChukhrai/WS_Base>`_.
 
 
-    .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/ws.jpg
-        :alt: github circuit board illustration
+    .. image:: https://github.com/YuriiChukhrai/WS_Base/blob/master/screenshot/ws.jpg
+        :alt: Williams Sonoma
         :width: 30%
         :align: center
 
@@ -102,19 +110,19 @@ Chrome - [Not Implement yet]
 ~~~~~~~~~~~~
 To run in Chrome use -DdriverType=CHROME, below:
 
-``mvn clean site -DdriverType=CHROME``
+``mvn clean site -DdriverType=CH/ch/CHROME/chrome/GOOGLE/google``
 
 ~~~~~~~~~~~~
 Internet Explorer - [Not Implement yet]
 ~~~~~~~~~~~~
 To run in Internet Explorer use -DdriverType=IE, below:
 
-``mvn clean site -DdriverType=IE``
+``mvn clean site -DdriverType=IE/ie``
 
 ~~~~~~~~~~~~
 Default
 ~~~~~~~~~~~~
-If you don't specify this parameter, default = FF
+If you don't specify this parameter, default option -DdriverType = HtmlUnitDriver
 
 ``mvn clean site -DdriverType=FF``
 
@@ -169,7 +177,7 @@ Use option -Ptest3 to run the profile where to need specify full path and testng
 ~~~~~~~~~~~~
 Default
 ~~~~~~~~~~~~
-If you don't specify this parameter default profile = -Ptest1
+If you don't specify this parameter default option profile = -Ptest1
 
 * if you specify a profile -Ptest1, then the following option [-Dtestngfile=testng_TestsTemp0_Title.xml] should not be specified.
 
@@ -210,7 +218,7 @@ To open the browser and in the address bar enter the path:
 
 ``.\target\site\surefire-report.html``
 
-    .. image:: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/screenshot/testng_TestsTemp0_Title.jpg
+    .. image:: https://github.com/YuriiChukhrai/WS_Base/blob/master/screenshot/testng_TestsTemp0_Title.jpg
         :alt: github circuit board illustration
         :width: 30%
         :align: center
