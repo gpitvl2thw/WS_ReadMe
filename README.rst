@@ -1,4 +1,29 @@
 
+.. image::  https://raw.github.com/p3/regal/master/doc/regal.jpg
+   :height: 128 px
+   :width:  128 px
+   :align: right
+=====
+Regal
+=====
+| https://github.com/p3/regal
+| `Downloads <https://bitbucket.org/nigels_com/regal/downloads>`_, `Issues <https://github.com/p3/regal/issues>`_, `Commits <https://github.com/p3/regal/commits/master>`_.
+| Status: |status|
+.. |status| image:: https://travis-ci.org/nigels-com/regal.png?branch=master
+   :target: https://travis-ci.org/nigels-com/regal
+   :alt: Build Status
+Recent News
+===========
+* November 2013 - Regal Wrangler support added.
+* October 2013 - `Emscripten <https://github.com/kripken/emscripten>`_ support added.
+* July 2013 - New binaries available for Windows and Mac.
+* July 2013 - `OpenGL 4.4 <http://www.opengl.org/registry/>`_ API support added.
+* July 2013 - `apitrace <http://apitrace.github.io/>`_ support added.
+Summary
+=======
+
+
+
 .. raw:: html
 	:file: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
 
