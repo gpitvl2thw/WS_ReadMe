@@ -3,6 +3,10 @@
    	:width:  128 px
    	:align: right
 
+    | https://github.com/p3/regal
+    | `Downloads <https://bitbucket.org/nigels_com/regal/downloads>`_, `Issues <https://github.com/p3/regal/issues>`_, `Commits <https://github.com/p3/regal/commits/master>`_.
+    | Status: |status|
+
 
 .. raw:: html
 	:file: https://github.com/gpitvl2thw/WS_ReadMe/blob/master/Reports/surefire-reports/surefire-report.html
